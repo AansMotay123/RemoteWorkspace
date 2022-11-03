@@ -1,0 +1,9 @@
+[bootstrapper][INFO] Failed or not need to detach session.
+[bootstrapper][INFO] Rainway installed: true
+[bootstrapper][INFO] update type: Patch
+[bootstrapper][INFO] user branch: Stable
+[quiche::updater][INFO] pulling the latest release for the Stable branch
+[bootstrapper][INFO] validating Rainway installation.
+[bootstrapper][INFO] Rainway is not outdated, starting.
+[bootstrapper::rainway][INFO] Failed or not need to detach session.
+[bootstrapper::rainway][INFO] Rainway service started: true

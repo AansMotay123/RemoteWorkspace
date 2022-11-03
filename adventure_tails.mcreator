@@ -1,0 +1,244 @@
+{
+  "mod_elements": [
+    {
+      "name": "FIREGOlem",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireg_olem"
+    },
+    {
+      "name": "FireArmourHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_armour_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireArmourBodyTickEvent",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_armour_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireArmourBootsTickEvent",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_armour_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireArmour",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_armour",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "FireswordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firesword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Firesword",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firesword"
+    },
+    {
+      "name": "FireBall",
+      "type": "rangeditem",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ball"
+    },
+    {
+      "name": "Dungeonlol",
+      "type": "structure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dungeonlol"
+    },
+    {
+      "name": "CaveStroke",
+      "type": "dimension",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cave_stroke",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Lava",
+      "type": "biome",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava"
+    },
+    {
+      "name": "Blob",
+      "type": "livingentity",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blob"
+    },
+    {
+      "name": "Golemhouse",
+      "type": "biome",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golemhouse"
+    },
+    {
+      "name": "BlueWaterboss",
+      "type": "livingentity",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_waterboss"
+    },
+    {
+      "name": "GlitchSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitch_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlitchSword",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitch_sword"
+    },
+    {
+      "name": "GlitchOre",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitch_ingot"
+    },
+    {
+      "name": "GLitcheMine",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g_litche_mine"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "entity.adventure_tails.blue_waterboss": "Blue Waterboss",
+      "item.adventure_tails.fireg_olem_spawn_egg": "FIREG Olem Spawn Egg",
+      "item.adventure_tails.fire_armour_leggings": "Fire Armour Leggings",
+      "item.adventure_tails.glitch_ingot": "Glitch ingot",
+      "item.adventure_tails.cave_stroke": "Cheese Flame",
+      "item.adventure_tails.fire_armour_boots": "Fire Armour Boots",
+      "item.adventure_tails.blue_waterboss_spawn_egg": "Blue Waterboss Spawn Egg",
+      "item.adventure_tails.glitch_sword": "Glitch Sword",
+      "item.adventure_tails.blob_spawn_egg": "Blob Spawn Egg",
+      "item.adventure_tails.fire_ball": "Cheese Ball",
+      "biome.adventure_tails.golemhouse": "Golemhouse",
+      "item.adventure_tails.fire_armour_chestplate": "Fire Armour Body",
+      "item.adventure_tails.firesword": "Firesword",
+      "entity.adventure_tails.fireg_olem": "FIREG Olem",
+      "biome.adventure_tails.lava": "Lava",
+      "block.adventure_tails.g_litche_mine": "GLitch Ore",
+      "item.adventure_tails.fire_armour_helmet": "Fire Armour Helmet",
+      "entity.adventure_tails.blob": "Blob"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "adventure_tails",
+    "modName": "Adventure Tails",
+    "version": "1.0.0",
+    "author": "2010m, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.adventuretails",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

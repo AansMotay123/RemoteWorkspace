@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "adventure_tails:items/glitched_sword"
+  }
+}

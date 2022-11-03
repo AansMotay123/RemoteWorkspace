@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "adventure_tails:block/cave_stroke_portal_ew"
+    },
+    "axis=x": {
+      "model": "adventure_tails:block/cave_stroke_portal_ns"
+    }
+  }
+}
