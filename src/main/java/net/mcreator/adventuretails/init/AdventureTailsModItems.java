@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.adventuretails.item.GlitchSwordItem;
 import net.mcreator.adventuretails.item.GlitchOreItem;
+import net.mcreator.adventuretails.item.GlitchArmourItem;
 import net.mcreator.adventuretails.item.FireswordItem;
 import net.mcreator.adventuretails.item.FireBallItem;
 import net.mcreator.adventuretails.item.FireArmourItem;
@@ -41,6 +42,12 @@ public class AdventureTailsModItems {
 	public static final RegistryObject<Item> GLITCH_SWORD = REGISTRY.register("glitch_sword", () -> new GlitchSwordItem());
 	public static final RegistryObject<Item> GLITCH_INGOT = REGISTRY.register("glitch_ingot", () -> new GlitchOreItem());
 	public static final RegistryObject<Item> G_LITCHE_MINE = block(AdventureTailsModBlocks.G_LITCHE_MINE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> GLITCH_ARMOUR_HELMET = REGISTRY.register("glitch_armour_helmet", () -> new GlitchArmourItem.Helmet());
+	public static final RegistryObject<Item> GLITCH_ARMOUR_CHESTPLATE = REGISTRY.register("glitch_armour_chestplate",
+			() -> new GlitchArmourItem.Chestplate());
+	public static final RegistryObject<Item> GLITCH_ARMOUR_LEGGINGS = REGISTRY.register("glitch_armour_leggings",
+			() -> new GlitchArmourItem.Leggings());
+	public static final RegistryObject<Item> GLITCH_ARMOUR_BOOTS = REGISTRY.register("glitch_armour_boots", () -> new GlitchArmourItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

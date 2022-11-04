@@ -13,6 +13,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.adventuretails.init.AdventureTailsModItems;
+
 import java.util.List;
 import java.util.Collections;
 
@@ -38,6 +40,6 @@ public class GLitcheMineBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(AdventureTailsModItems.GLITCH_INGOT.get()));
 	}
 }

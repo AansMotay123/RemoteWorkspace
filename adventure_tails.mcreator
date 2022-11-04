@@ -192,6 +192,60 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "g_litche_mine"
+    },
+    {
+      "name": "GlitchSwordrecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitch_swordrecipe"
+    },
+    {
+      "name": "GlitchArmourHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitch_armour_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlitchArmourBodyTickEvent",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitch_armour_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GlitchArmour",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitch_armour",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
@@ -207,6 +261,7 @@
       "item.adventure_tails.blue_waterboss_spawn_egg": "Blue Waterboss Spawn Egg",
       "item.adventure_tails.glitch_sword": "Glitch Sword",
       "item.adventure_tails.blob_spawn_egg": "Blob Spawn Egg",
+      "item.adventure_tails.glitch_armour_leggings": "Glitch Armour Leggings",
       "item.adventure_tails.fire_ball": "Cheese Ball",
       "biome.adventure_tails.golemhouse": "Golemhouse",
       "item.adventure_tails.fire_armour_chestplate": "Fire Armour Body",
@@ -215,7 +270,10 @@
       "biome.adventure_tails.lava": "Lava",
       "block.adventure_tails.g_litche_mine": "GLitch Ore",
       "item.adventure_tails.fire_armour_helmet": "Fire Armour Helmet",
-      "entity.adventure_tails.blob": "Blob"
+      "item.adventure_tails.glitch_armour_chestplate": "Glitch Armour Body",
+      "entity.adventure_tails.blob": "Blob",
+      "item.adventure_tails.glitch_armour_helmet": "Glitch Armour Helmet",
+      "item.adventure_tails.glitch_armour_boots": "Glitch Armour Boots"
     }
   },
   "foldersRoot": {
